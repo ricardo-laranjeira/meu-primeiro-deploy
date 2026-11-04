@@ -26,6 +26,7 @@ export default function Home() {
     {carregando ? "Chamando..." : "Chamar API"}
     </button>
     {resposta && <p style={{ marginTop: 24, fontSize: 20 }}>{resposta}</p>}
+    {resposta && (<p style={{ marginTop: 8, fontSize: 20 }}>Olá Mundo, meu nome é {nome}</p>)}
     </main>
   );
 }
